@@ -13,11 +13,6 @@ $ npm i kairosdb-client -S
 * node v9.4.0
 * npm v5.6.0
 
-# ENV
-```bash
-$ export KAIROSDB_HOST="http://localhost:5858"
-```
-
 # start
 ```bash
 $ npm start
@@ -32,6 +27,7 @@ $ npm run build
 ```bash
 $ npm test
 ```
+
 # absolute example from / to
 ```javascript
 import moment from 'moment';
@@ -86,7 +82,7 @@ kdb
 # TODO
 * add tests.
 * add documentation.
-* support du group_by.
+* support for group_by.
 
 # Author
 * subk
