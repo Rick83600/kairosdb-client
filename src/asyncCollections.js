@@ -1,0 +1,21 @@
+export default [
+  'each',
+  'eachSeries',
+  'eachLimit',
+  'map',
+  'mapSeries',
+  'mapLimit',
+  'filter',
+  'filterSeries',
+  'reject',
+  'rejectSeries',
+  'reduce',
+  'reduceRight',
+  'detect',
+  'detectSeries',
+  'sortBy',
+  'some',
+  'every',
+  'concat',
+  'concatSeries'
+];
