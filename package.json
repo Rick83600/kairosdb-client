@@ -1,11 +1,17 @@
 {
   "name": "kairosdb-client",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "KairosDB Client",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "directories": {
     "example": "examples"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json",
+    "examples"
+  ],
   "scripts": {
     "prestart": "npm run build",
     "build": "npm run build:clean && npm run build:dist",
